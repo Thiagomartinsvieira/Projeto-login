@@ -32,6 +32,9 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
 
+    transition: width 5s, height 1s;
+    transition-timing-function: ease;
+
     background-color: white;
     width: 250px;
     height: 500px;
@@ -51,3 +54,4 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+
